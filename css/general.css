@@ -1,11 +1,37 @@
-.main-theme
-{
-    background-color: #bf020b;
-}
+
 
 .logoFont
 {
     font-family: 'Oswald', sans-serif;
     font-size: 300%;
-    color: #ffffff;
+}
+
+.navColor
+{
+    color: #F8091C !important;
+}
+
+.myNavFont
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 150%;
+    text-shadow: 1px 1px #000000cb;
+    margin: 10px 10px;
+}
+
+.myFont
+{
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff !important;
+    text-align: center;
+}
+
+#icoMom
+{
+    float: right;
+}
+
+.banner-image {
+    background-image: url('../img/1536x1024/boycrossfit_1536x1024.jpg');
+    background-size: cover;
 }
