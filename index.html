@@ -16,8 +16,10 @@
 
     <!--My css-->
     <link rel="stylesheet" href="css\general.css">
+    <link rel="stylesheet" href="css\pricingSection.css">
     
     <title>Accueil</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 
 
@@ -59,42 +61,121 @@
           </div>
         </div>
     </nav>
+    <!-- END Navbar-->
 
     <!-- Banner Image  -->
-    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+    <div class="parallax-1 w-100 vh-100 d-flex justify-content-center align-items-center">
 
     <div class="content text-center">
       <h1 class="myFont"><i class="fa-solid fa-location-dot fa-bounce"></i> 72 MONTÉE INDUSTRIELLE ET COMMERCIALE</h1>
     </div>
   </div>
+  <!-- END Banner Image  -->
 
   <!-- Main Content Area -->
-  <div class="container my-5 d-grid gap-5">
-    <div class="p-5 border">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-        natus iusto fugit id saepe neque rerum magni laudantium accusantium
-        dolorem numquam quasi.
-      </p>
+
+
+  <!-- Section prix -->
+  <div class="container-fluid pricing-container">
+    <h1 class="myFont section-title">Abonnements</h1>
+
+    <div class="section-subtitle">
+      <h3>(Les taxes ne sont pas incluses dans les prix)</h3>
     </div>
-    <div class="p-5 border">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-        natus iusto fugit id saepe neque rerum magni laudantium accusantium
-        dolorem numquam quasi.
-      </p>
+
+    
+    <!-- Pricing -->
+    <div class="pricing">
+      <div class="container">
+        <div class="pricing-table table-responsive">
+          <table class="table">
+            <!-- Heading -->
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th>
+                  non membre
+                  <i class="fa-solid fa-ban"></i>
+                </th>
+                <th class="highlight">
+                  membre
+                  <i class="fa-solid fa-address-card"></i>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="ptable-title">1 an</span></td>
+                <td>
+                  <i class="fa-solid fa-dollar-sign">839</i>
+                </td>
+                <td>
+                  <i class="fa-solid fa-dollar-sign">799</i>
+                </td>
+              </tr>
+              <tr>
+                <td><span class="ptable-title">6 mois</span></td>
+                <td>
+                  <i class="fa-solid fa-dollar-sign">479</i>
+                </td>
+                <td>
+                  <i class="fa-solid fa-dollar-sign">449</i>
+                </td>
+              </tr>
+              <tr>
+                <td><span class="ptable-title">3 mois</span></td>
+                <td>
+                  <i class="fa-solid fa-dollar-sign">269</i>
+                </td>
+                <td>
+                  <i class="fa-solid fa-dollar-sign">239</i>
+                </td>
+              </tr>
+              <tr>
+                <td><span class="ptable-title">10 séances</span></td>
+                <td>
+                  <i class="fa-solid fa-dollar-sign">134,95</i>
+                </td>
+                <td>
+                  <i class="fa-solid fa-dollar-sign">109,95</i>
+                </td>
+              </tr>
+              <tr>
+                <td><span class="ptable-title">5 séances</span></td>
+                <td>
+                  <i class="fa-solid fa-dollar-sign">79,95</i>
+                </td>
+                <td>
+                  <i class="fa-solid fa-dollar-sign">59,95</i>
+                </td>
+              </tr>
+              <tr>
+                <td><span class="ptable-title">1 séance</span></td>
+                <td>
+                  <i class="fa-solid fa-dollar-sign">15,95</i>
+                </td>
+                <td>
+                  <i class="fa-solid fa-dollar-sign">13,95</i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
-    <div class="p-5 border">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-        natus iusto fugit id saepe neque rerum magni laudantium accusantium
-        dolorem numquam quasi.
-      </p>
+
+  </div>
+  <!-- END Pricing-->
+
+  <!-- Promo -->
+  <div class="parallax-2 w-100 vh-100 d-flex justify-content-center align-items-center">
+    <div class="container">
+      <img class="img-fluid img-thumbnail mx-auto d-block" src="img\promoRentree.JPG" alt="promo de la rentrée">
     </div>
-    <!--Liens JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </div>
+  <!-- END Promo-->
+
+  <!--Liens JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
