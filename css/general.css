@@ -26,10 +26,39 @@
     text-align: center;
 }
 
+p, h4
+{
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff !important;
+    text-align: justify;
+}
+
+.highlight
+{
+    color: #F8091C;
+    text-decoration: solid;
+}
+
 #icoMom
 {
     float: right;
 }
+
+.between-section-container{
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.spacing{
+    padding: 50px;
+}
+
+
+
+
+
+
 
 
 /* parallax effect*/
@@ -64,4 +93,83 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .parallax-3 {
+    /* The image used */
+    background-image: url("../img/1536x1024/installations_1536x1024.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+
+
+
+  /* Services image flip */ 
+
+  .flip-box {
+    background-color: transparent;
+    margin: auto;
+    width: 700px;
+    height: 525px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: black;
+    color: #ffffff;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .image-title{
+    position: absolute;
+    text-shadow: 1px 1px #000000cb;
+    left: 275px;
+  }
+
+  h2{
+    margin-top: 25px;
+    text-decoration-line: underline;
+  text-decoration-color: #F8091C;
   }

@@ -1,6 +1,4 @@
-.pricing-container{
-    background-color: black;
-}
+
 
 .section-title{
     padding-top: 50px;
@@ -45,8 +43,8 @@ h3{
 	text-transform: uppercase;
 }
 .pricing .table th.highlight{
-	border-top: 4px solid #e60618dc !important;
-	border-right: 4px solid #e60618dc !important;
+	border-top: 4px solid #F8091C !important;
+	border-right: 4px solid #F8091C !important;
 }
 .pricing .table tr:nth-child(odd){
 	background: #f0f8ff;
@@ -55,12 +53,13 @@ h3{
 	padding-left: 20px;
 	text-align: left;
 	padding-top:35px;
-	background: #e60618dc;
+    background: #F8091C;
 }
 .pricing tr td .ptable-title {
 	font-size: 22px;
 	font-weight:400;
 	color: #fff;
+	font-family: 'Oswald', sans-serif;
 }
 .pricing tr td .ptable-title i {
 	width: 23px;
